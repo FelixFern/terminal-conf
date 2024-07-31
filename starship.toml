@@ -1,9 +1,11 @@
-command_timeout = 9999
+command_timeout = 99999
+
 add_newline = false
+palette = "catppuccin_macchiato"
 
 [username]
-style_user = "bold green "
-style_root = "bold red "
+style_user = "bold peach "
+style_root = "bold maroon "
 format = "[$user]($style) "
 disabled = false
 show_always = true
@@ -16,7 +18,7 @@ disabled = false
 
 # Replace the "❯" symbol in the prompt with "➜"
 [character]                            # The name of the module wes are configuring is "character"
-success_symbol = "[❯](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
+success_symbol = "[❯❯](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
 error_symbol = "[✗](bold red)"
 
 # configure directory
@@ -24,7 +26,7 @@ error_symbol = "[✗](bold red)"
 read_only = " "
 truncation_length = 10
 truncate_to_repo = true # truncates directory to root folder if in github repo
-style = "bold italic blue"
+style = "bold italic sapphire"
 
 [cmd_duration]
 min_time = 4
@@ -146,3 +148,30 @@ detect_folders = ["node_modules"]
 [gcloud]
 disabled = true
 
+[palettes.catppuccin_macchiato]
+rosewater = "#f4dbd6"
+flamingo = "#f0c6c6"
+pink = "#f5bde6"
+mauve = "#c6a0f6"
+red = "#ed8796"
+maroon = "#ee99a0"
+peach = "#f5a97f"
+yellow = "#eed49f"
+green = "#a6da95"
+teal = "#8bd5ca"
+sky = "#91d7e3"
+sapphire = "#7dc4e4"
+blue = "#8aadf4"
+lavender = "#b7bdf8"
+text = "#cad3f5"
+subtext1 = "#b8c0e0"
+subtext0 = "#a5adcb"
+overlay2 = "#939ab7"
+overlay1 = "#8087a2"
+overlay0 = "#6e738d"
+surface2 = "#5b6078"
+surface1 = "#494d64"
+surface0 = "#363a4f"
+base = "#24273a"
+mantle = "#1e2030"
+crust = "#181926"
