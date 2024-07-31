@@ -1,13 +1,16 @@
+command_timeout = 9999
+add_newline = false
+
 [username]
-style_user = "green "
-style_root = "red semibold"
+style_user = "bold green "
+style_root = "bold red "
 format = "[$user]($style) "
 disabled = false
 show_always = true
 
 [hostname]
 ssh_only = true
-format = 'on [MacBook-Air-13](bold yellow) '
+format = 'on [MacBook-Pro-16](bold yellow) '
 trim_at = "."
 disabled = false
 
@@ -39,7 +42,7 @@ symbol = " "
 symbol = " "
 
 #[directory]
-#read_only = " "
+#read_only = " "
 
 [docker_context]
 symbol = " "
@@ -142,3 +145,4 @@ detect_folders = ["node_modules"]
 
 [gcloud]
 disabled = true
+
