@@ -1,2 +1,2 @@
-# Starship 
-FelixFern's [Starship](https://starship.rs/) configuration file
+# Terminal-conf
+FelixFern's Terminal Configurations 
