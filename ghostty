@@ -1,0 +1,10 @@
+theme = rose-pine
+window-decoration = true
+macos-option-as-alt = true
+adjust-cell-height = 12
+adjust-cell-width = 1
+
+window-padding-x = 8
+window-padding-y = 5
+macos-titlebar-style = tabs 
+macos-icon = custom-style
