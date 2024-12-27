@@ -43,6 +43,11 @@ if [ -f '/Users/felixfernando/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/f
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/felixfernando/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/felixfernando/google-cloud-sdk/completion.zsh.inc'; fi
 
+if [ -z "$TMUX" ]
+then
+    tmux attach -t TMUX || tmux new -s TMUX
+fi
+
 # Starship
 eval "$(starship init zsh)"
 
