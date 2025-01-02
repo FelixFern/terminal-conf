@@ -1,10 +1,25 @@
 theme = rose-pine
+title = 👻 Terminal
+
+background-opacity = 0.8
+background-blur-radius = 20
+
+window-padding-balance=true
 window-decoration = true
-macos-option-as-alt = true
-adjust-cell-height = 12
+window-save-state = always
+
+adjust-cell-height = 6
 adjust-cell-width = 1
 
-window-padding-x = 8
-window-padding-y = 5
+font-family =  JetBrainsMonoNL NFM SemiBold
+
 macos-titlebar-style = tabs 
 macos-icon = custom-style
+macos-option-as-alt = true
+macos-icon-frame = beige
+
+quit-after-last-window-closed = true
+
+command = tmux a
+
+bold-is-bright = true 
