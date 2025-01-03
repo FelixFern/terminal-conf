@@ -4,9 +4,9 @@ add_newline = false
 palette = "catppuccin_macchiato"
 
 [username]
-style_user = "bold peach "
+style_user = "bold pink "
 style_root = "bold maroon "
-format = "[$user]($style) "
+format = " [ $user]($style) "
 disabled = false
 show_always = true
 
@@ -17,16 +17,16 @@ trim_at = "."
 disabled = false
 
 # Replace the "❯" symbol in the prompt with "➜"
-[character]                            # The name of the module wes are configuring is "character"
-success_symbol = "[❯❯](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
-error_symbol = "[✗](bold red)"
+[character] # The name of the module wes are configuring is "character"
+success_symbol = "[ 󱞩](bold pink)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
+error_symbol = "[ ✗](bold red)"
 
 # configure directory
 [directory]
 read_only = " "
 truncation_length = 10
-truncate_to_repo = true # truncates directory to root folder if in github repo
-style = "bold italic sapphire"
+truncate_to_repo = true        # truncates directory to root folder if in github repo
+style = "bold italic lavender"
 
 [cmd_duration]
 min_time = 4
@@ -76,7 +76,7 @@ conflicted = "-${count}"
 deleted = "✘${count}"
 renamed = "»${count}"
 format = '(\[[$all_status$ahead_behind]($style)\] )($style)'
-style = "fg:#FCF392"
+style = "yellow"
 
 [git_commit]
 commit_hash_length = 4
@@ -93,6 +93,8 @@ symbol = " "
 
 [java]
 symbol = " "
+style = "bold peach"
+format = "via [${symbol}java (${version} )]($style)"
 
 [julia]
 symbol = " "
